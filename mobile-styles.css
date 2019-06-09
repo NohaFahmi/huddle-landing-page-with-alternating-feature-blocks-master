@@ -1,0 +1,144 @@
+@media (max-width: 375px) {
+  body {
+    width: auto;
+  }
+  body .header-contain {
+    background-image: url(/images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    padding: 30px 10px 0 10px;
+  }
+  body .header-contain img {
+    width: 60%;
+  }
+  body .header-contain .nav {
+    align-items: center;
+  }
+  body .try-btn {
+    width: 120px;
+    height: 30px;
+  }
+  body .top-content {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 90px;
+  }
+  body h1 {
+    font-size: 140%;
+  }
+  body .top-start-btn {
+    width: 290px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .grow {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .grow .grow-img {
+    width: 100%;
+  }
+  .grow .contents {
+    padding: 30px 10px 30px 10px;
+  }
+  .grow .contents h2 {
+    font-size: 130%;
+    margin-top: 10px;
+  }
+  .grow .contents p {
+    margin: 5px 0 0 0;
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .flowing {
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 320px;
+  }
+  .flowing .flowing-img {
+    width: 100%;
+  }
+  .flowing .contents {
+    padding: 30px 10px 30px 10px;
+  }
+  .flowing .contents h2 {
+    font-size: 130%;
+    margin-top: 10px;
+  }
+  .flowing .contents p {
+    margin: 5px 0 0 0;
+    font-size: 80%;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .users {
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 320px;
+  }
+  .users .users-img {
+    width: 100%;
+  }
+  .users .contents {
+    padding: 30px 10px 30px 10px;
+  }
+  .users .contents h2 {
+    font-size: 130%;
+    margin-top: 10px;
+  }
+  .users .contents p {
+    margin: 5px -10px 0 -10px;
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .ready {
+    top: 2600px;
+    left: 20px;
+    width: auto;
+  }
+  .ready h2 {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  footer {
+    width: auto;
+  }
+  footer .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .flex-4 {
+    align-self: center;
+    margin: 20px 0 0 0;
+  }
+  footer .bottom-logo {
+    margin: 80px 0 20px 0;
+  }
+  footer .email, footer .location, footer .phone {
+    width: 95%;
+  }
+  footer .attribution {
+    text-align: center;
+  }
+  footer .copy-rights {
+    margin-top: 60px;
+    text-align: center;
+  }
+}
